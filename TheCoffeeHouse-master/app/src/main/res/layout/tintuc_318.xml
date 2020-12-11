@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_gradient_318"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_318"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_318"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/btn_gradient_318">
+
+            <RelativeLayout
+                android:id="@+id/uudai_318"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_gradient_318"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/relativeTichdiem_318"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageTichDiem_318"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_marginLeft="14dp"
+                        android:src="@drawable/a3_318" />
+
+                    <TextView
+                        android:id="@+id/txtTichDiem_318"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageTichDiem_318"
+                        android:layout_marginLeft="15dp"
+                        android:text="Tích điểm"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeDathang_318"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/relativeTichdiem_318"
+                   android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageDatHang_318"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/a2_318"/>
+
+                    <TextView
+                        android:id="@+id/txtDatHang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageDatHang_318"
+                        android:layout_marginLeft="21dp"
+                        android:text="Đặt hàng"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeCoupon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/relativeDathang_318"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageCoupon_318"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:src="@drawable/a5_318" />
+
+                    <TextView
+                        android:id="@+id/txtCoupon_318"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageCoupon_318"
+                        android:layout_marginLeft="25dp"
+                        android:text="Coupon"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/text_318"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/uudai_318"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ưu đãi đặc biệt"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+          
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalList_318"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/uudai_318"
+                android:layout_marginTop="51dp"
+                android:background="@drawable/btn_gradient_318">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/btn_gradient_318">
+
+                    <RelativeLayout
+                        android:id="@+id/singleDay_318"
+                        android:layout_width="wrap_content"
+                        android:layout_height="300dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh1_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Merry Choco (Choco lúa mạch): hương vị để bạn chiều chuộng bản thân - mang vị ngọt hoàn hảo...."
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Order ngay"
+                            android:textColor="#FFA500" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/pickUp_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="220dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh6_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Thức uống ngọt ngào - tỉnh táo - healthy, đặc biệt cùng 7 ngày size L giá M..."
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Order ngay"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/hoanTien_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="440dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh7_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Go Green được lan toả mỗi ngày bằng những hành động thiết thực mang tính cộng đồng. Chúng tôi mong muốn truyền cảm hứng đến thật nhiều bạn trẻy..."
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Chi tiết"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/deals_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="660dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh8_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Loạt Deal Xịn Sò 'Cập bến' Nhà, Đổi Ngay Thôi Ngày hội đổi BEAN lớn nhất năm Deal siêu xịn sò vẫy gọi..."
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Chi tiết"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/muaTang_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="880dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/mua3tang1" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Mua 3 Tặng 1-Mời Nhóm Mình Chung Vui Chỉ cần nhập mã CUNGVUI qua app. Nhà mời ngay ưu đãi Mua 3 Tặng 1..."
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Order ngay"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </HorizontalScrollView>
+
+            <RelativeLayout
+                android:id="@+id/text2_318"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horizontalList_318"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cập nhật Mới"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    />
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalList1_318"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text2_318"
+                android:layout_marginTop="20dp"
+                android:background="#808080">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/a_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh9_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Mô hình thiết kế mới tại The Coffee House mang đến không gian xinh đẹp vừa quen vừa lạ. Nội thất gỗ mang màu sắc ấm áp..."
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Order ngay"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/b_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="220dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh10_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Sơ ri là loại trái cây quen thuộc với người Việt. Việc thưởng thức hương vị chua ngọt của loại quả này là sở thích của nhiều người. Vậy nhưng quả Sơ ri - nông sản Việt 100%..."
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Order ngay"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/c_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="440dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh11_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Trà Sơ ri Thanh long trân châu trắng dai giòn, tươi mát.
+- Yakult Sơ ri Thanh Long"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Chi tiết"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/d_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="660dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh6_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Loạt Deal Xịn Sò 'Cập bến' Nhà, Đổi Ngay Thôi Ngày hội đổi BEAN lớn nhất năm Deal siêu xịn sò vẫy gọi..."
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Chi tiết"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/e_318"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="880dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/anh1_318" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="🎄 Mua 3 Tặng 1-Mời Nhóm Mình Chung Vui Chỉ cần nhập mã CUNGVUI qua app. Nhà mời ngay ưu đãi Mua 3 Tặng 1..."
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="220dp"
+                            android:background="@drawable/button_318"
+                            android:text="Order ngay"
+                            android:textColor="#FFA500" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_gradient_318">
+
+    <RelativeLayout
+        android:id="@+id/relativeThong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gradient_318"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageClose_318"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_close_318" />
+
+        <TextView
+            android:id="@+id/txvThongbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Thông báo"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_toRightOf="@id/txvThongbao"
+            android:src="@drawable/ic_baseline_format_list_bulleted" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+       >
+
+        <RelativeLayout
+            android:id="@+id/singleDay_318"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="#fff">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/anh1_318" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="🎄 Merry Choco (Choco lúa mạch): hương vị để bạn chiều chuộng bản thân - mang vị ngọt hoàn hảo...."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pickUp_318"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="220dp"
+            android:background="#fff">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:background="@drawable/anh6_318" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="🎄 Thức uống ngọt ngào - tỉnh táo - healthy, đặc biệt cùng 7 ngày size L giá M..."
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>
